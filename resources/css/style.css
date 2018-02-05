@@ -1,0 +1,16 @@
+html {
+  background-image: url(../images/dogWalk.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+h2  {
+  font-size: 1rem;
+}
