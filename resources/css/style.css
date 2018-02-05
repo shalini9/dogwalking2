@@ -1,9 +1,14 @@
 html {
+  font-size: 18px;
+}
+
+body {
   background-image: url(../images/dogWalk.jpeg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  font-size: 18px;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
 }
 
 h1 {
@@ -11,6 +16,81 @@ h1 {
   color: white;
 }
 
-h2  {
+p {
   font-size: 1rem;
+  padding: 0.5rem;
+}
+
+nav ul a  {
+  font-size: 1.2rem;
+}
+
+.main {
+display: flex;
+flex-direction: column;
+font-weight: bold;
+}
+
+nav ul {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.75rem 0rem;
+  justify-content: space-around;
+}
+
+.secret {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.main {
+  margin-top: 18rem;
+  width: 70%;
+}
+
+.main .support-text {
+  color: white;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: green;
+  text-align: center;
+}
+
+.main .support-text p {
+  text-align:left;
+}
+
+
+/*Main Section*/
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: white;
+  width: 70%;
+  padding-top: 0.2rem;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: white;
+  width: 70%;
+  padding-top: 0.2rem;
+}
+
+.welcome-text {
+  text-align: left;
 }
